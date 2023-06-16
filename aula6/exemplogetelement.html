@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Element By Id</title>
+  </head>
+  <body>
+    <p id="texto">Front-End Essential</p>
+    <div id="caixa"></div>
+
+    <script>
+      let texto = document.getElementById("texto");
+      texto.style.color = "#377337";
+      texto.style.fontSize = "48px";
+      texto.style.fontFamily = "Arial";
+
+      let caixa = document.getElementById("caixa");
+      caixa.style.border = "1px dotted green";
+      caixa.style.width = "300px";
+      caixa.style.height = "300px";
+      caixa.style.backgroundColor = "gray";
+    </script>
+  </body>
+</html>

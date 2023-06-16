@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*
+      let x = 2,
+        y = 2;
+      if (x == y) {
+        alert("Iguais!");
+      } else {
+        alert("Diferentes!");
+      }
+
+     alert(x==y?"Iguais":"Diferentes") 
+     */
+      let media = 9;
+      let resultado;
+      
+      /*if (media >= 9) {
+        resultado = "Aprovado com Louvor";
+      } else if (media >= 7) {
+        resultado = "Aprovado";
+      } else {
+        resultado = "Reprovado";
+      }
+      */
+      let teste;
+      resultado = (media>=9?"Aprovado com Louvor!":media >=7?"Aprovado":"Reprovado")
+        document.write(resultado);
+
+     let testeCovid = true;
+     let res = (testeCovid?"Positivo":"Negativo" ); 
+     document.write(`<br> O resultado do teste foi: ${res}`); 
+
+     let tipoPedido = "Entrega";
+     let status = "Pago"
+    let situacaoPedido = (tipoPedido=="Entrega" && status=="Pago"?"Entrega liberada":"Pendência");
+    document.write(`<br> Situação:${situacaoPedido}`);
+      let opcao = 1
+    switch (opcao) {
+        case 1:
+            
+            break;
+    
+        default:
+            break;
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+/*link não visitado*/
+.meu-link:link{
+    color: green;
+}
+
+/*link visitado*/
+.meu-link:visited{
+    color: red;
+}
+
+.meu-link:hover{
+    color: orange;
+}

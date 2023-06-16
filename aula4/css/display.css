@@ -1,0 +1,43 @@
+body{
+    font-size: 32px;
+}
+
+.empresa, .area{
+    display: block ;
+    height: 100px;
+    width: 200px;
+}
+
+.celulares, .impressoras{
+    display: inline;
+}
+
+.roteadores, .computadores{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}
+
+.empresa{
+    background-color: pink;
+}
+
+.area{
+    background-color: red;
+}
+
+.celulares{
+    background-color: green;
+}
+
+.impressoras{
+    background-color: yellow;
+}
+
+.computadores{
+    background-color: blue;
+}
+
+.roteadores{
+    background-color: brown;
+}

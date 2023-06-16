@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funções</title>
+  </head>
+  <body>
+    <script>
+      function escreve() {
+        document.write("Hello World ! <br>");
+      }
+      escreve();
+
+      function soma(a, b) {
+        return a + b;
+      }
+      document.write(soma(10, 2));
+
+      document.write("<br>******************<br>");
+      let numeros = [10, 20, 30, 40, 12, 45];
+
+      function media() {
+        let soma = 0;
+        for (let i = 0; i < numeros.length; i++) {
+          soma = numeros[i];
+        }
+        return Math.round(soma / numeros.length);
+      }
+      document.write("A média do vetor é:" + media());
+    </script>
+  </body>
+</html>
